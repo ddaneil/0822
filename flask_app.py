@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "-"
+    return "is working"
 
 @app.route("/to_rupiah/<int:amount>")
 def to_rupiah(amount):
